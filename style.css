@@ -1,0 +1,1244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar--------- */
+
+.nav-bar{
+    background: #777;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.blur{
+    width: 25%;
+}
+
+.blur ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.blur ul li{
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.blur ul li a,.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.blur ul li a:hover{
+    color: #dddada;
+}
+
+
+.home{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: #000;
+    position: relative;    
+}
+
+
+.menu{
+    display: none;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.cate{
+    position: absolute;
+    right: -65%;
+    top: 0;
+    background: #777;
+    border-radius: 10px;
+    display: none;
+}
+
+
+.show{
+    display: block;
+}
+
+
+/* LOGO CENTER-------------- */
+
+
+.logo{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 55px;
+    height: 55px;
+    border-radius: 80%;
+}
+
+
+
+/* SEARCH BAR-------------- */
+
+.search-box{
+    padding-top: 10px;
+}
+
+.search{
+    width: 416px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.search-icon{
+    margin-left: -35px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Xbox Series ----------- */
+
+.xboxSeries{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    justify-content: space-around;
+}
+
+.image{
+    display: inline-block;
+    margin-bottom: 35px;
+    text-align: center;
+    cursor: pointer;
+    width: 306px;
+    scale: 1;
+}
+
+.image img:hover{
+    transition: scale .4s;
+    scale: 1.1;
+    z-index: -1;
+}
+
+.image img{
+    width: 306px;
+    height: 278px;
+    border-radius: 50px;
+}
+
+.pp{
+    margin-top: 20px;
+    word-spacing: 5px;
+    font-size: 24px;
+}
+
+.p{
+    word-spacing: 5px;
+    font-size: 24px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+/* Xbox Community------------- */
+
+
+.xbox-comm{
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.xbox{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.comm{
+    font-size: 10rem;
+    margin-top: -20px;
+}
+
+.keepup{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    font-size: 1.8rem;
+}
+
+
+
+/* The Leatest in Gaming------------- */
+
+
+.theLatest{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3rem;
+    color: #107C10;
+    display: none;
+}
+
+
+.Leatest{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 83% auto;
+}
+
+.Leatest-site{
+    width: 90%;
+}
+
+.leatest-game{
+    box-shadow: 4px 4px 0px 0px #d2cfcf ;
+}
+
+.leatest-game img{
+    width: 100%;
+}
+
+.leatest-game .game2,.game3{
+    display: none;
+}
+
+
+.leatest-game-text{
+    width: 50%;
+    position: absolute;
+    margin-top: -13%;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.leatest-game-text h2{
+    width: 80%;
+}
+
+.leatest-game-text p{
+    font-size: 1.4rem;
+    font-weight:normal;
+}
+
+.leatest-game-text a,.leatest-celebrate-text a,.leatest-showcase-text a,.leatest-events-text a,.leatest-fanfest-text a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* LEATEST CELEBRATE --------------- */
+
+.leatest-celebrate{
+    width: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 12px 0;
+    box-shadow: 4px 4px 0px 0px #d2cfcf ;
+    height: 490px;
+}
+
+.leatest-celebrate img{
+    width: 100%;
+}
+
+.leatest-celebrate-text{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 30px;
+}
+
+.leatest-celebrate-text h2{
+    height: 157px;
+    width: 40%;
+    display: inline-block;
+}
+
+.leatest-celebrate-text p{
+    font-size: 1.3rem;
+    width: 45%;
+    margin-top: -3%;
+}
+
+
+.leatest-celebrate .cle2,.cle3{
+    display: none;
+    height: 100%;
+}
+
+
+
+/* LEATEST SHOWCASE---------------- */
+
+.leatest-showcase{
+    width: 30.8%;
+    display: inline-block;
+    position: absolute;
+    margin: 12px;
+    overflow: hidden;
+    height: 320px;
+    box-shadow: 4px 4px 0px 0px #d2cfcf;
+}
+
+.leatest-showcase .showcase1{
+    margin-left: -10px;
+}
+
+.leatest-showcase .showcase2,.showcase3{
+    display: none;
+}
+
+.leatest-showcase-text{
+    position: absolute;
+    width: 90%;
+    color: #fff;
+    margin-top: -30%;
+    margin-left: 30px;
+}
+
+.leatest-showcase-text h4{
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+
+/* LEATEST FANFEST----------- */
+
+.leatest-fanfest{
+    display: inline-block;
+    width: 48.3%;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px #d2cfcf;
+    position: relative;
+    margin-left: 12px;
+    top: 23%;
+    height: 470px;
+}
+
+.leatest-fanfest .fanfest1{
+    width: 101%;
+}
+
+.leatest-fanfest .fanfest2,.fanfest3{
+    display: none;
+}
+
+.leatest-fanfest-text{
+    width: 80%;
+    position: absolute;
+    margin-top: -45%;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.leatest-fanfest-text p{
+    font-size: 1.2rem;
+}
+
+/* LEATEST EVENTS------------- */
+
+.leatest-events{
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    height: 300px;
+    box-shadow: 4px 4px 0px 0px #d2cfcf;
+    position: relative;
+}
+
+.leatest-events .event1{
+    margin-left: -5px;
+    width: 101%;
+}
+
+.leatest-events .event2,.event3{
+    display: none;
+}
+
+
+.leatest-events-text{
+    width: 70%;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -7%;
+    color: #fff;
+}
+
+.leatest-events-text h4{
+    margin-bottom: 10px;
+}
+
+/* LEATEST SITE TEXT----------------- */    
+
+
+.Leatest-site-text{
+    color: #107C10;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    /* height: 130px; */
+    display: inline-block ;
+}
+
+.fix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+}
+
+.Leatest-site-text h1{
+    text-align: center;
+    width: 80%;
+}
+
+
+ /* Join your gaming Community------------ -- */
+
+
+ .joinCommu{
+    background-image: url(images/background.jpg);
+    width: 100%;
+    /* height: 220vh; */
+    margin-top: 4%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .toVideo{
+    width: 33%;
+    position: relative;
+    left: 10%;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .card{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.vd-item{
+    margin: 20px 0;
+    display: inline;
+    width: 100%;
+}
+
+.vd-item .vd-img{
+    width: 450px;
+    height: 232px;
+    margin-left: 20px;
+    border-radius: 9px;
+}
+
+.card-body{
+    transition: all 0.5s ease-in-out;
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+ }
+
+ .active{
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+ }
+
+
+
+ .card-body img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+
+ .card-title{
+    display: inline-block;
+    font-weight: 900;
+ }
+
+ .card-text{
+    margin-bottom: 20px;
+ }
+
+ .card-body a{
+    text-decoration: none;
+    color: #107c10;
+    text-transform: uppercase;
+ }
+
+ .card-body a i{
+    margin-left: 10px;
+ }
+
+ .card-body h4{
+    width: 100%;
+ }
+
+ .joinCommu-text{
+    width: 30%;
+    color: #fff;
+ }
+
+ .joinCommu-text h1{
+    font-size: 4rem;
+ }
+
+ .joinCommu-text p{
+    font-size: 20px;
+    margin: 20px 0;
+ }
+
+ .joinCommu-text>a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+ .link-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    display: inline-block;
+}
+
+.link-list li{
+    margin-top: 10px;
+}
+
+.link-list li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.link-list li .link-icon{
+    width: 30;
+    height: 30;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.link-list li .link-text{
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+
+/* <!-- EVENTS DATES----------- -->  */
+
+
+.events-date{
+    display: flex;
+    margin: auto;
+    margin-top: 8%;
+    color: #fff;
+}
+
+.c-black{
+    color: #000;
+}
+
+.event-d{
+    width: 20%;
+    flex: 1;
+    padding: 30px;
+    margin: 0 5px;
+    height: 550px;
+}
+
+
+.bg-gr{
+    background: #4F4F4F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.event-d h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.event-d h2{
+    font-size: 7rem;
+    height: 100px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.event-d h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.event-d p{
+    margin: 0;
+}
+
+
+.event-d button{
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 130px;
+    height: 30px;
+    background: #8BD80A;
+    border: none;
+    transition: text-decoration 200ms;
+}
+
+.event-d button:hover{
+    text-decoration: underline;
+    background: #73b108;
+}
+
+/* FOLLOW XBOX LINK---------- */
+
+.followxbox{
+    margin-top: 7%;
+}
+
+.followxbox h3{
+    display: inline-block;
+}
+
+.followxbox .follow-link{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    display: flex;
+    width: 50%;
+}
+
+.followxbox .follow-link li{
+    margin-right: 20px;
+}
+
+.followxbox .follow-link a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+
+/* FOOTER -------------------- */
+
+.footer{
+    background: #F2F2F2;
+    margin-top: 10px;
+}
+
+.footer-gp{
+    padding: 32px 0;
+    display: flex;
+}
+
+.footer-gp div{
+    width: 16.666%;
+    opacity: .7;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+    width: 80%;
+}
+
+.footer-list li{
+    margin: 15px 0;
+    font-size: small;
+}
+
+.footer-list li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-list li a:hover{
+    text-decoration: underline;
+}
+
+.footer-text{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media(max-width:1000px){
+    .menu{
+        display: block;
+    }
+
+    .blur{
+        display: none;
+    }
+
+    .nav-item ul{
+        justify-content: space-between;
+    }
+
+    .search{
+        width: 80%;
+    }
+
+    .images{
+        grid-template-columns: auto auto;
+    }
+
+    .xbox{
+        font-size: 3rem;
+    }
+
+    .comm{
+        font-size: 5rem;
+    }
+
+    /* The Leatest in Gaming  */
+
+    .theLatest{
+        display: block;
+    }
+
+    .Leatest{
+        display: block;
+    }
+
+    .Leatest-site{
+        width: 100%;
+    }
+
+    .leatest-game{
+        position: relative;
+        overflow: hidden;
+        box-shadow: none;
+    }
+    
+    .leatest-game img{
+        display: none;
+    }
+    
+    .leatest-game .game2{
+        display: block;
+    }
+
+
+    .leatest-game-text{
+        width: 100%;
+        top: 70%;
+        padding: 37px 0;
+        margin-left: 0;
+        padding-left: 30px;
+    }
+
+    .leatest-game-text h2{
+        width: 80%;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .leatest-game-text p{
+        font-size: 20px;
+    }
+
+    .Leatest-site-text{
+        display: none;
+    }
+
+    /* Leatest Celebrate  */
+
+    .leatest-celebrate{
+        width: 100%;
+        background-size: cover;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+
+    }
+    
+    .leatest-celebrate .cel1{
+        display: none;
+    }
+
+    .leatest-celebrate .cel2{
+        display: block;
+    }
+
+    .leatest-celebrate-text{
+        width: 100%;
+        margin-top: 0;
+        top: 55%;
+    }
+
+    .leatest-celebrate-text h2{
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .leatest-celebrate-text p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* Leatest Fansfest */
+
+    .leatest-fanfest{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        box-shadow: none;
+
+    }
+
+    .leatest-fanfest .fanfest1{
+        display: none;
+    }
+
+
+    .leatest-fanfest .fanfest2{
+        display: block;
+        width: 100%;
+    }
+
+
+    .leatest-fanfest-text{
+        margin-top: 0;
+        top: 55%;
+    }
+
+    .leatest-fanfest-text h2{
+        font-size: 35px;
+    }
+
+    .leatest-fanfest-text p{
+        font-size: 20px;
+    }
+
+    /* Leatest Events  */
+
+    .leatest-events{
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+        box-shadow: none;
+
+    }
+
+    .leatest-events .event1{
+        display: none;
+    }
+
+    .leatest-events .event2{
+        display: block;
+        width: 100%;
+    }
+
+    .leatest-events-text{
+        width: 100%;
+        margin-top: 0;
+        top: 75%;
+    }
+    
+    .leatest-events-text h4{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+
+    /* Leatest Show CAse  */
+
+    .leatest-showcase{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        box-shadow: none;
+
+    }
+
+    .leatest-showcase .showcase1{
+        display: none;
+    }
+
+    .leatest-showcase .showcase2{
+        display: block;
+        width: 100%;
+    }
+
+    .leatest-showcase-text{
+        margin-top: 0;
+        top: 75%;
+    }
+
+
+    /* join your gaming community  */
+
+    .joinCommu{
+        display: block;
+        align-items: center;
+        text-align: center;
+        background: none;
+        margin-top: 0;
+        padding: 20px 0;
+    }
+
+    .toVideo{
+        width: 100%;
+        margin: auto;
+        left: 0;
+        background-image: url(images/background.jpg);
+    }
+    
+    .card{
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .card-body{
+        text-align: left;
+    }
+
+    
+    
+    .vd-item .vd-img{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .joinCommu-text{
+        background: #fff;
+        color: #000;
+        width: 82%;
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    .link-list li a{
+        color: #000;
+    }
+
+    .joinCommu-text>a{
+        color: #000;
+        display: block;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+
+    .link-list{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+    }
+
+    /* Events dates  */
+
+
+    .events-date{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .event-d{
+        width: 100%;
+    }
+
+    .event-d>h1{
+        width: 50%;
+    }
+
+
+    .footer-gp{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .footer-gp div{
+        width: 100%;
+    }
+
+    
+}
+
+@media(max-width:700px){
+    .images{
+        grid-template-columns: auto;
+    }
+}
+
+
+@media(max-width:426px){
+
+    .search{
+        display: none;
+    }
+
+    .search-icon{
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .events-date{
+        grid-template-columns: auto;
+        gap: 0;
+        margin: auto;
+    }
+
+    .event-d{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .footer{
+        margin: auto;
+    }
+
+    .footer-gp{
+        grid-template-columns: auto auto;
+    }
+
+    .footer-gp div{
+        margin-bottom: 25px;
+    }
+
+    .comm{
+        font-size: 4rem;
+        margin: 10px 0;
+    }
+
+    .keepup{
+        font-size: 1rem;
+        font-weight: normal;
+        width: 57%;
+    }
+
+
+    /* leatest in gaming */
+
+    .leatest-game .game2{
+        display: none;
+    }
+
+    .leatest-game .game3{
+        display: block;
+    }
+
+    .leatest-game-text{
+        position: relative;
+        background: #000000;
+        margin-top: 0;
+    }
+
+    .leatest-game-text h2{
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .leatest-game-text p{
+        font-size: 1.1rem;
+    }
+
+    /* leatest celebrate  */
+
+    .leatest-celebrate .cel2{
+        display: none;
+    }
+
+    .leatest-celebrate .cle3{
+        display: block;
+    }
+
+    .leatest-celebrate-text{
+        position: relative;
+        background: #000;
+        margin-left: 0;
+        padding: 37px 0;
+        padding-left: 30px;
+    }
+
+    /* leatest showcase  */
+
+    .leatest-showcase{
+        margin-top: 0;
+    }
+
+    .leatest-showcase .showcase2{
+        display: none;
+    }
+
+    .leatest-showcase .showcase3{
+        display: block;
+        width: 100%;
+    }
+
+    .leatest-showcase-text{
+        position: relative;
+        background: #000;
+        width: 100%;
+        margin-left: 0;
+        padding: 37px 0;
+        padding-left: 30px;
+    }
+
+    .leatest-showcase-text h4{
+        width: 100%;
+    }
+
+    /* LEATEST FNAFEST  */
+
+    .leatest-fanfest .fanfest2{
+        display: none;
+    }
+
+    .leatest-fanfest .fanfest3{
+        display: block;
+        width: 100%;
+    }
+
+    .leatest-fanfest-text{
+        position: relative;
+        background: #000;
+        width: 100%;
+        margin-left: 0;
+        padding: 37px 0;
+        padding-left: 30px;
+    }
+
+    .leatest-fanfest-text p{
+        font-size: 1.1rem;
+        width: 90%;
+    }
+
+    /* LEATEST EVENT  */
+
+    .leatest-events .event2{
+        display: none;
+    }
+
+    .leatest-events .event3{
+        display: block;
+        width: 100%;
+    }
+
+    .leatest-events-text {
+        position: relative;
+        background: #000;
+        margin-left: 0;
+        padding: 37px 0;
+        padding-left: 30px;
+    }
+}
+
+
+@media(max-width:376px){
+    .joinCommu-text h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:321px){
+
+    .comm{
+        font-size: 3rem;
+    }
+
+    .leatest-game-text h2{
+        font-size: 1.5rem;
+        width: 84%;
+    }
+
+    .leatest-game-text p{
+        font-size: 1.2rem;
+    }
+
+    .leatest-celebrate-text h2{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .leatest-showcase-text h4{
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .leatest-events-text h4{
+        font-size: 1.4rem;
+    }
+
+    .joinCommu-text{
+        width: 98%;
+        margin: auto;
+    }
+
+    .joinCommu-text p{
+        font-size: 18px; 
+        width: 93%;       
+    }
+
+    .joinCommu-text>a{
+        color:#107c10;
+    }
+}
